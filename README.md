@@ -27,7 +27,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 This app was fast paced and challenging.  While following the videos, I could only code along for about five minutes maximum before I had to... 1)Pause the video, 2)read up on the codepath resource described in the video, 3)do some more research on the topic, 4)try to make it work in my project, and 5)rewind to watch that segment of the viedo again.
-Finally when I thought I was over all the hurdles, I realized I hadn't implemented version control yet.  As a complete newb to git and github, this proved to be very challenging.  I also need to review the files not to include in the repo and what the purpose of the .gitignore is if those files land up in the repo anyway.
+Finally when I thought I was over all the hurdles, I realized I hadn't implemented version control yet.  As a complete newb to git and github, this proved to be very challenging.  I also need to review the files not to include in the repo and what the purpose of the .gitignore is.
 
 ### Open-source libraries used
 
