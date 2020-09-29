@@ -92,7 +92,7 @@ public class DetailActivity extends YouTubeBaseActivity {
                     // AutoPlay for highly rated videos
                     if (rating >= 7) youTubePlayer.loadVideo(youtubeKey);
                     else youTubePlayer.cueVideo(youtubeKey);
-                } //else youTubePlayer.... I don't know how to make it do much else
+                } else youTubePlayer.cueVideo("ZWcRmoLqhkc");
             }
 
             @Override
