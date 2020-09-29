@@ -1,5 +1,7 @@
 package com.example.flixster.models;
 
+import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -11,6 +13,7 @@ import java.util.List;
 @Parcel
 public class Movie {
 
+    int movieId;
     String backdropPath;
     String posterPath;
     String title;
@@ -30,6 +33,7 @@ public class Movie {
         rating = (float) jsonObject.getDouble("vote_average");
         votes = jsonObject.getInt("vote_count");
         release = jsonObject.getString("release_date");
+        movieId = jsonObject.getInt("id");
     }
 
     public static List<Movie> fromJsonArray(JSONArray movieJsonArray) throws JSONException {
@@ -58,6 +62,10 @@ public class Movie {
 
     public Float getRating() { return rating; }
 
+    public int getMovieId() {
+        Log.d("Movie", "The movie ID is: " + movieId);
+        return movieId;
+    }
 
     public int getVotes() {
         return votes;
